@@ -2,16 +2,6 @@
 
 # dependencies
 /node_modules
-/1-projects
-/my note folder
-/src/assets
-/src/components
-/src/Data
-/src/pages
-/src/Routes
-/src/sections
-/src/UI
-/src/store
 /.pnp
 .pnp.js
 
