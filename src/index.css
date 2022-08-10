@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(233, 233, 233);
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  object-fit: cover;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+/* Styling lareg h1 with animation */
+.title_styles {
+  font-size: 3rem;
+  animation: fade 3s ease;
+  text-transform: capitalize !important;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    /* margin-top: -0px; */
+  }
+
+  to {
+    opacity: 3;
+    /* margin-top: -10px; */
+  }
+}
+
+@media (max-width: 500px) {
+  .title_styles {
+    font-size: 30px;
+  }
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 20px;
+  background-color: rgb(227, 227, 227);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: unset;
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(100, 100, 100);
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  ::-webkit-scrollbar-thumb {
+      visibility: hidden;
+  }
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 99, 99, 0.4);
+}
